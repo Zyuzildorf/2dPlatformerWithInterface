@@ -76,7 +76,7 @@ public class Player : MonoBehaviour
 
         if (item.TryGetComponent(out Heart heart))
         {
-            _health.HealthRecover(heart);
+            _health.Recover(heart);
         }
     }
 
